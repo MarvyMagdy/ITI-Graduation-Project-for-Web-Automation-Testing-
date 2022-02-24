@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="13" total="27" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-16T21:52:55 EET" name="Bank Suite" finished-at="2022-02-16T21:53:16 EET" duration-ms="20982">
+    <groups>
+    </groups>
+    <test started-at="2022-02-16T21:52:55 EET" name="Test" finished-at="2022-02-16T21:53:16 EET" duration-ms="20982">
+      <class name="Account.AccountOverviewTests">
+        <test-method signature="getTableRows()[pri:0, instance:Account.AccountOverviewTests@55634720]" started-at="2022-02-16T21:53:02 EET" name="getTableRows" finished-at="2022-02-16T21:53:05 EET" duration-ms="2552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableRows -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Account.AccountOverviewTests@55634720]" started-at="2022-02-16T21:53:05 EET" name="tearDown" finished-at="2022-02-16T21:53:05 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Account.AccountOverviewTests -->
+      <class name="Bill.BillPassTests">
+        <test-method signature="TestBillPass()[pri:0, instance:Bill.BillPassTests@2d710f1a]" started-at="2022-02-16T21:53:09 EET" name="TestBillPass" finished-at="2022-02-16T21:53:10 EET" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBillPass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bill.BillPassTests@2d710f1a]" started-at="2022-02-16T21:53:10 EET" name="tearDown" finished-at="2022-02-16T21:53:10 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Bill.BillPassTests -->
+      <class name="login.LoginTests">
+        <test-method signature="Successfullogin()[pri:0, instance:login.LoginTests@2dc54ad4]" started-at="2022-02-16T21:53:00 EET" name="Successfullogin" finished-at="2022-02-16T21:53:01 EET" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Successfullogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginTests@2dc54ad4]" started-at="2022-02-16T21:53:01 EET" name="tearDown" finished-at="2022-02-16T21:53:01 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginTests -->
+      <class name="Logout.LogoutTests">
+        <test-method signature="logoutCheck()[pri:0, instance:Logout.LogoutTests@1b11171f]" started-at="2022-02-16T21:52:58 EET" name="logoutCheck" finished-at="2022-02-16T21:52:59 EET" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Logout.LogoutTests@1b11171f]" started-at="2022-02-16T21:52:59 EET" name="tearDown" finished-at="2022-02-16T21:52:59 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Logout.LogoutTests -->
+      <class name="Bill.BillFailVerifyTests">
+        <test-method signature="TestBillFailVerify()[pri:0, instance:Bill.BillFailVerifyTests@d9345cd]" started-at="2022-02-16T21:53:07 EET" name="TestBillFailVerify" finished-at="2022-02-16T21:53:09 EET" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBillFailVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bill.BillFailVerifyTests@d9345cd]" started-at="2022-02-16T21:53:09 EET" name="tearDown" finished-at="2022-02-16T21:53:09 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Bill.BillFailVerifyTests -->
+      <class name="loan.LoanTests">
+        <test-method signature="RequestLoanSuccessfully()[pri:0, instance:loan.LoanTests@4659191b]" started-at="2022-02-16T21:53:01 EET" name="RequestLoanSuccessfully" finished-at="2022-02-16T21:53:02 EET" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestLoanSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:loan.LoanTests@4659191b]" started-at="2022-02-16T21:53:02 EET" name="tearDown" finished-at="2022-02-16T21:53:02 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loan.LoanTests -->
+      <class name="login.FailedLogin">
+        <test-method signature="testFailedLogin()[pri:0, instance:login.FailedLogin@1151e434]" started-at="2022-02-16T21:52:59 EET" name="testFailedLogin" finished-at="2022-02-16T21:53:00 EET" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.FailedLogin@1151e434]" started-at="2022-02-16T21:53:00 EET" name="tearDown" finished-at="2022-02-16T21:53:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.FailedLogin -->
+      <class name="Customer_Care.ContactFailEmilTests">
+        <test-method signature="contactFailEmail()[pri:0, instance:Customer_Care.ContactFailEmilTests@6bd61f98]" started-at="2022-02-16T21:53:14 EET" name="contactFailEmail" finished-at="2022-02-16T21:53:15 EET" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactFailEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Customer_Care.ContactFailEmilTests@6bd61f98]" started-at="2022-02-16T21:53:15 EET" name="tearDown" finished-at="2022-02-16T21:53:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Customer_Care.ContactFailEmilTests -->
+      <class name="transferfund.TransferFundTests">
+        <test-method signature="TransferfundSuccessfully()[pri:0, instance:transferfund.TransferFundTests@29215f06]" started-at="2022-02-16T21:53:10 EET" name="TransferfundSuccessfully" finished-at="2022-02-16T21:53:11 EET" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferfundSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:transferfund.TransferFundTests@29215f06]" started-at="2022-02-16T21:53:11 EET" name="tearDown" finished-at="2022-02-16T21:53:11 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- transferfund.TransferFundTests -->
+      <class name="Update_Account.UPdateAccountTests">
+        <test-method signature="updateAccountFNameTest()[pri:0, instance:Update_Account.UPdateAccountTests@4efac082]" started-at="2022-02-16T21:53:12 EET" name="updateAccountFNameTest" finished-at="2022-02-16T21:53:14 EET" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAccountFNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Update_Account.UPdateAccountTests@4efac082]" started-at="2022-02-16T21:53:14 EET" name="tearDown" finished-at="2022-02-16T21:53:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Update_Account.UPdateAccountTests -->
+      <class name="register.RegisterTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:register.RegisterTests@47e2e487]" started-at="2022-02-16T21:52:49 EET" name="setup" finished-at="2022-02-16T21:52:55 EET" duration-ms="6879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterSuccessfully()[pri:0, instance:register.RegisterTests@47e2e487]" started-at="2022-02-16T21:52:56 EET" name="RegisterSuccessfully" finished-at="2022-02-16T21:52:58 EET" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:register.RegisterTests@47e2e487]" started-at="2022-02-16T21:52:58 EET" name="tearDown" finished-at="2022-02-16T21:52:58 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- register.RegisterTests -->
+      <class name="Bill.BillFailNameTests">
+        <test-method signature="TestBillFailName()[pri:0, instance:Bill.BillFailNameTests@4b0d79fc]" started-at="2022-02-16T21:53:05 EET" name="TestBillFailName" finished-at="2022-02-16T21:53:07 EET" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBillFailName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bill.BillFailNameTests@4b0d79fc]" started-at="2022-02-16T21:53:07 EET" name="tearDown" finished-at="2022-02-16T21:53:07 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Bill.BillFailNameTests -->
+      <class name="Customer_Care.ContactPassTests">
+        <test-method signature="contactTest()[pri:0, instance:Customer_Care.ContactPassTests@48aca48b]" started-at="2022-02-16T21:53:15 EET" name="contactTest" finished-at="2022-02-16T21:53:16 EET" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Customer_Care.ContactPassTests@48aca48b]" started-at="2022-02-16T21:53:16 EET" name="tearDown" finished-at="2022-02-16T21:53:16 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Customer_Care.ContactPassTests -->
+      <class name="New_Account.OpenNewAccountTests">
+        <test-method signature="openNewAccountTest()[pri:0, instance:New_Account.OpenNewAccountTests@59505b48]" started-at="2022-02-16T21:53:11 EET" name="openNewAccountTest" finished-at="2022-02-16T21:53:12 EET" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:New_Account.OpenNewAccountTests@59505b48]" started-at="2022-02-16T21:53:12 EET" name="tearDown" finished-at="2022-02-16T21:53:12 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- New_Account.OpenNewAccountTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Bank Suite -->
+</testng-results>
