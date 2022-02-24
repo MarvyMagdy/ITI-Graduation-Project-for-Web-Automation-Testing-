@@ -8,21 +8,21 @@ import Bank_Pages.Contact;
 import Bank_Pages.Home;
 import Project.ParaBank.BankBaseTests;
 
-public class ContactFailEmilTests extends BankBaseTests
+public class ContactPassTests extends BankBaseTests
 {
 	
 	@Test
-	public void contactFailEmail()
+	public void contactTest()
 	{
 		Home homepage = new Home(driver);
 		
 		Contact contact = homepage.clickContactImg();
-		
 		contact.FillName("Marvy");
+		contact.FillEmail("fake@fakemail.com");
 		contact.FillPhone("+021546973");
 		contact.FillMessage("Thank You");
 		contact.ClickSend();
 		
-		assertEquals(contact.getErrorText(), "Email is required.");
+		assertEquals(contact.getCareFinish(), "A Customer Care Representative will be contacting you.");
 	}
 }
