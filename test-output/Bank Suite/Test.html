@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 16 21:52:55 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20982 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Account.AccountOverviewTests.getTableRows()'><b>getTableRows</b><br>Test class: Account.AccountOverviewTests</td>
+<td></td>
+<td>2</td>
+<td>Account.AccountOverviewTests@55634720</td></tr>
+<tr>
+<td title='Bill.BillFailNameTests.TestBillFailName()'><b>TestBillFailName</b><br>Test class: Bill.BillFailNameTests</td>
+<td></td>
+<td>1</td>
+<td>Bill.BillFailNameTests@4b0d79fc</td></tr>
+<tr>
+<td title='Update_Account.UPdateAccountTests.updateAccountFNameTest()'><b>updateAccountFNameTest</b><br>Test class: Update_Account.UPdateAccountTests</td>
+<td></td>
+<td>1</td>
+<td>Update_Account.UPdateAccountTests@4efac082</td></tr>
+<tr>
+<td title='Logout.LogoutTests.logoutCheck()'><b>logoutCheck</b><br>Test class: Logout.LogoutTests</td>
+<td></td>
+<td>0</td>
+<td>Logout.LogoutTests@1b11171f</td></tr>
+<tr>
+<td title='loan.LoanTests.RequestLoanSuccessfully()'><b>RequestLoanSuccessfully</b><br>Test class: loan.LoanTests</td>
+<td></td>
+<td>1</td>
+<td>loan.LoanTests@4659191b</td></tr>
+<tr>
+<td title='Bill.BillPassTests.TestBillPass()'><b>TestBillPass</b><br>Test class: Bill.BillPassTests</td>
+<td></td>
+<td>1</td>
+<td>Bill.BillPassTests@2d710f1a</td></tr>
+<tr>
+<td title='login.FailedLogin.testFailedLogin()'><b>testFailedLogin</b><br>Test class: login.FailedLogin</td>
+<td></td>
+<td>0</td>
+<td>login.FailedLogin@1151e434</td></tr>
+<tr>
+<td title='Customer_Care.ContactPassTests.contactTest()'><b>contactTest</b><br>Test class: Customer_Care.ContactPassTests</td>
+<td></td>
+<td>1</td>
+<td>Customer_Care.ContactPassTests@48aca48b</td></tr>
+<tr>
+<td title='transferfund.TransferFundTests.TransferfundSuccessfully()'><b>TransferfundSuccessfully</b><br>Test class: transferfund.TransferFundTests</td>
+<td></td>
+<td>1</td>
+<td>transferfund.TransferFundTests@29215f06</td></tr>
+<tr>
+<td title='New_Account.OpenNewAccountTests.openNewAccountTest()'><b>openNewAccountTest</b><br>Test class: New_Account.OpenNewAccountTests</td>
+<td></td>
+<td>0</td>
+<td>New_Account.OpenNewAccountTests@59505b48</td></tr>
+<tr>
+<td title='Bill.BillFailVerifyTests.TestBillFailVerify()'><b>TestBillFailVerify</b><br>Test class: Bill.BillFailVerifyTests</td>
+<td></td>
+<td>1</td>
+<td>Bill.BillFailVerifyTests@d9345cd</td></tr>
+<tr>
+<td title='register.RegisterTests.RegisterSuccessfully()'><b>RegisterSuccessfully</b><br>Test class: register.RegisterTests</td>
+<td></td>
+<td>2</td>
+<td>register.RegisterTests@47e2e487</td></tr>
+<tr>
+<td title='Customer_Care.ContactFailEmilTests.contactFailEmail()'><b>contactFailEmail</b><br>Test class: Customer_Care.ContactFailEmilTests</td>
+<td></td>
+<td>1</td>
+<td>Customer_Care.ContactFailEmilTests@6bd61f98</td></tr>
+<tr>
+<td title='login.LoginTests.Successfullogin()'><b>Successfullogin</b><br>Test class: login.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>login.LoginTests@2dc54ad4</td></tr>
+</table><p>
+</body>
+</html>
